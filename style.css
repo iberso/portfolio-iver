@@ -23,7 +23,7 @@ body {
 
 .home {
     height: 100vh;
-    background: url('/bg5.png')
+    background: url('assets/images/bg5.png')
 }
 
 a {

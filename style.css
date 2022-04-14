@@ -1,0 +1,70 @@
+body {
+    background-color: #1D2025;
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+
+.text-title {
+    color: #66FCF2;
+    font-size: 3.5rem;
+}
+
+.text-head {
+    font-size: 3rem;
+}
+
+.text-desc {
+    font-size: 2rem;
+}
+
+.vertical-center {
+    margin-top: 15%;
+}
+
+.home {
+    height: 100vh;
+    background: url('/bg5.png')
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
+
+a:hover {
+    color: #66FCF2 !important;
+}
+
+.blue-outline {
+    outline: solid #66FCF2 1pt;
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
+.card-border-radius {
+    border-radius: 10px;
+}
+
+.image-hover {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container-prop:hover .image-hover {
+    opacity: 0.3;
+    position: relative;
+}
+
+.hehe {
+    width: fit-content;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}

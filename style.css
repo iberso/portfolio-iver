@@ -1,7 +1,11 @@
 body {
     background-color: #1D2025;
     color: white;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #202429;
+    background-image: linear-gradient(30deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(150deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(30deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(150deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(60deg, #2B406077 25%, transparent 25.5%, transparent 75%, #2B406077 75%, #2B406077), linear-gradient(60deg, #2B406077 25%, transparent 25.5%, transparent 75%, #2B406077 75%, #2B406077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
 .text-title {

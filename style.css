@@ -1,42 +1,80 @@
 body {
-    background-color: #1D2025;
-    color: white;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    background-color: #202429;
-    background-image: linear-gradient(30deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(150deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(30deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(150deg, #2B4060 12%, transparent 12.5%, transparent 87%, #2B4060 87.5%, #2B4060), linear-gradient(60deg, #2B406077 25%, transparent 25.5%, transparent 75%, #2B406077 75%, #2B406077), linear-gradient(60deg, #2B406077 25%, transparent 25.5%, transparent 75%, #2B406077 75%, #2B406077);
-    background-size: 80px 140px;
-    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    background-color: #0f1428;
+    /* background-color: #1d2340; */
+}
+
+.bg-color-dark-blue {
+    background-color: #0f1428;
+}
+
+.pattern-diagonal-lines-xl {
+    background-image: repeating-linear-gradient(45deg, #0f1428 0, #1f2747 5px, transparent 0, transparent 50%);
+    background-size: 100px 100px;
+}
+
+.text-color-yellow {
+    color: #F9D67A !important;
+}
+
+.bg-color-yellow {
+    background-color: #F9D67A !important;
+}
+
+.navbar-bg-color {
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+}
+
+.navbar-bg-color-scroll {
+    border-bottom: 2pt solid #5d627d;
+    transition: 0.4s ease-in-out;
+    background-color: #0f1428;
+}
+
+.text-sc {
+    color: #C7D5E0 !important;
+    /* color: #5c6b81; */
+    /* nice secondary */
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
 }
 
 .text-title {
-    color: #66FCF2;
-    font-size: 3.5rem;
+    font-size: 72px;
 }
 
 .text-head {
-    font-size: 3rem;
+    font-size: 36px;
 }
 
 .text-desc {
-    font-size: 2rem;
+    font-size: 20px;
 }
 
 .vertical-center {
-    margin-top: 15%;
+    margin-top: 30vh;
 }
 
-.home {
+.home-bg {
     height: 100vh;
-    background: url('assets/images/bg5.png');
+    background-image: linear-gradient(to right top, #051937, #0d1e3c, #152341, #1c2946, #232e4b);
 }
 
-a {
+a.nav-link {
     text-decoration: none;
     color: white !important;
 }
 
-a:hover {
-    color: #66FCF2 !important;
+a.nav-link:hover {
+    color: #F9D67A !important;
     transition: 0.5s ease-out;
 }
 
@@ -45,7 +83,7 @@ a:hover {
 }
 
 .icon {
-    font-size: 2.5rem;
+    font-size: 30px;
 }
 
 .card-border-radius {
